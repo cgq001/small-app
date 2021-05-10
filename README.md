@@ -1,4 +1,4 @@
-# qiankun-base
+# qiankun-vue
 
 ## Project setup
 ```

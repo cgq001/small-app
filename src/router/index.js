@@ -19,11 +19,12 @@ const routes = [
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   }
 ]
-
+// -------------------------------------------------------------------------
 const router = new VueRouter({
   mode: 'history',
-  base: process.env.BASE_URL,
+  base: '/vue', // 修改为主应用配置的路由规则
   routes
 })
+// -------------------------------------------------------------------------
 
 export default router
